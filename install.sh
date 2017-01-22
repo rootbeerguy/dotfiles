@@ -14,8 +14,13 @@ brew update
 brew tap homebrew/bundle
 brew bundle
 
+# Add Homebrew shell packages to system shells
+sudo -s
+echo /usr/local/bin/bash >> /etc/shells
+echo /usr/local/bin/zsh >> /etc/shells
+
 # Make ZSH the default shell environment
-# chsh -s $(which zsh)
+chsh -s /usr/local/bin/zsh
 
 # Install Composer
 # curl -sS https://getcomposer.org/installer | php
@@ -31,6 +36,7 @@ brew bundle
 # This is a default directory for macOS user accounts but doesn't comes pre-installed
 # mkdir $HOME/Sites
 
+# TODO: add choice to run or not
 # Set macOS preferences
 # We will run this last because this will reload the shell
 # source .macos
