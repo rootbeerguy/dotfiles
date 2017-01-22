@@ -6,7 +6,7 @@ This repository serves as my way to help me setup and maintain my Mac. It takes 
 
 Read the blog post: https://driesvints.com/blog/getting-started-with-dotfiles
 
-## A Fresh macOS Setup
+## macOS Setup
 
 Follow these install instructions to setup a new Mac.
 
