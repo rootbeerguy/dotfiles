@@ -8,7 +8,7 @@ tap 'homebrew/bundle'
 
 # Install ZSH
 brew 'zsh'
-# brew 'zsh-completions'
+brew 'zsh-completions'
 
 # Install GNU core utilities (those that come with macOS are outdated)
 # brew 'coreutils'
@@ -17,7 +17,7 @@ brew 'zsh'
 # brew 'findutils'
 
 # Install Bash 4
-# brew 'bash'
+brew 'bash'
 
 # Install more recent versions of some macOS tools
 # brew 'homebrew/dupes/grep'
