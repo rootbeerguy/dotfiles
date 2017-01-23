@@ -1,7 +1,7 @@
 # Taps
 tap 'caskroom/cask'
 tap 'caskroom/fonts'
-# tap 'caskroom/versions'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
 # tap 'homebrew/dupes'
 # tap 'homebrew/php'

@@ -15,12 +15,12 @@ brew tap homebrew/bundle
 brew bundle
 
 # Add Homebrew shell packages to system shells
-sudo -s
-echo /usr/local/bin/bash >> /etc/shells
-echo /usr/local/bin/zsh >> /etc/shells
+# sudo -s
+# echo /usr/local/bin/bash >> /etc/shells
+# echo /usr/local/bin/zsh >> /etc/shells
 
 # Make ZSH the default shell environment
-chsh -s /usr/local/bin/zsh
+# chsh -s /usr/local/bin/zsh
 
 # Install Composer
 # curl -sS https://getcomposer.org/installer | php
